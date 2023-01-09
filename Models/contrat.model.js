@@ -1,6 +1,5 @@
 //Le modèle de base de données "Contrat" a des champs de Num,description Contrat.
 
-
 module.exports = (sequelize, Sequelize) => {
   const Contrat = sequelize.define('contrat', {
     description: {
@@ -15,5 +14,3 @@ module.exports = (sequelize, Sequelize) => {
 
   return Contrat;
 };
-
-
