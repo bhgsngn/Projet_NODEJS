@@ -12,5 +12,5 @@ module.exports = (sequelize, Sequelize) => {
     },
   });
 
-  return Contact;
+  return Contrat;
 };
